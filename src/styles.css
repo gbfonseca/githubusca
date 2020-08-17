@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: #666666;
+    font-size: 14px;
+    font-family: Poppins;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+    width: 100%;
+    float: left;
+    background-image: url(assets/img/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: auto;
+    padding-bottom: 90px;
+}
+

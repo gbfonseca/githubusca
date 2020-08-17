@@ -1,0 +1,88 @@
+.layout-padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+.padding-0 {
+    padding: 0px;
+}
+
+.banner-section {
+    width: 100%;
+    float: left;
+    height: auto;
+    padding-bottom: 90px;
+    background-size: cover;
+}
+
+.title {
+    width: 100%;
+    float: left;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.user-section {
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+
+.image {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.user-img {
+    height: 250px;
+    border-radius: 50%;
+}
+
+.profile-section {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.profile-text {
+    width: 100%;
+    float: left;
+    font-size: 46px;
+    color: #252525;
+}
+
+.profile-subtext {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.access-bt {
+    width: 45%;
+    float: left;
+    margin-top: 50px;
+}
+
+.access-bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #252525;
+}
+
+.access-bt a:hover {
+    color: #fff;
+    background-color: #0c8aba;
+    text-decoration: none;
+    transition: all 0.5s;
+}

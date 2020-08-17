@@ -1,0 +1,40 @@
+<div class="banner-section layout-padding">
+    <div class="container">
+        <h1 class="title">Insira um usuário do Github</h1>
+        <div class="main">
+            <input type="" class="input" [(ngModel)]="userLogin" #name="ngModel" placeholder="Digite um Usuário" required>
+            <button (click)="findUser()" class="find-bt"><a>Buscar</a></button>    
+        </div>
+        <div class="btn-main">
+            <div class="recent-users"><button routerLink="recentUsers">Usuários Recentes</button></div>
+        </div>
+    </div>
+
+</div>
+<div class="user-section layout-padding" id="user" *ngIf="user">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="image padding-0">
+                    <a [routerLink]="['/users', user.login]">
+                        <img [src]="user.avatar_url" class="user-img">
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="profile-section">
+                    <h1 class="profile-text">{{user.name}}</h1>
+                    <p class="profile-subtext">
+                        <app-user-icon></app-user-icon>
+                        {{ user.login }}
+                    </p>
+                    <p class="profile-subtext">
+                        <app-location-icon></app-location-icon>
+                        {{ user.location }}
+                    </p>
+                    <div class="access-bt"><a [routerLink]="['/users', user.login]">Acessar</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

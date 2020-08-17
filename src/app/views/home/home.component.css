@@ -1,0 +1,283 @@
+.input {
+    width: 70%;
+    float: left;
+    font-size: 16px;
+    color: #313233;
+    background-color: #ffffff;
+    text-align: left;
+    padding-left: 15px;
+    height: 50px;
+    border: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.find-bt {
+    width: 30%;
+    background-color: #0c8aba;
+    float: right;
+    padding: 9px 14px;
+    color: #FFF;
+    height: 50px;
+    font-size: 16px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.find-bt a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px !important;
+    display: flex;
+}
+
+
+.btn-main {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.recent-users {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+.recent-users button {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #0c8aba;
+    text-decoration: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.recent-users button:hover {
+    color: #fff;
+    background-color: #096a90;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+:focus {
+    outline: 0;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #096a90;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.layout-padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+.padding-0 {
+    padding: 0px;
+}
+
+
+.banner-section {
+    width: 100%;
+    float: left;
+    height: auto;
+    padding-bottom: 90px;
+    background-size: cover;
+}
+
+.title {
+    width: 100%;
+    float: left;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.user-img {
+    height: 250px;
+    border-radius: 50%;
+}
+
+.user-section {
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+
+.profile-section {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.profile-text {
+    width: 100%;
+    float: left;
+    font-size: 46px;
+    color: #252525;
+}
+
+.profile-subtext {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.dummy_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #252525;
+    margin-left: 0px;
+}
+
+.access-bt {
+    width: 45%;
+    float: left;
+    margin-top: 50px;
+}
+
+.access-bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #252525;
+}
+
+.access-bt a:hover {
+    color: #fff;
+    background-color: #0c8aba;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+@media (max-width: 575px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .btn-main {
+        width: 52%;
+    }
+
+    .user-section {
+        width: 100%;
+        float: left;
+        padding-left: 0;
+    }
+    .profile-section {
+        padding-top: 25px;
+        padding-left: 75px;
+    }
+
+    .profile-text {
+        font-size: 33px;
+    }
+
+    .dummy_text {
+        font-size: 14px;
+    }
+
+    .access-bt {
+        margin-top: 0px;
+    }
+
+    .image {
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .input {
+        width: 63%;
+    }
+
+    .search-btn {
+        width: 37%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main {
+        width: 100%;
+    }
+
+    .btn-main {
+        width: 30%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main {
+        width: 65%;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    .btn-main {
+        width: 20%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .title {
+        font-size: 40px;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .btn-main {
+        width: 40%;
+    }
+    .profile-section {
+        padding-left: 0;
+    }
+}
