@@ -13,3 +13,7 @@ Agora você pode rodar a aplicação, rode um dos seguintes comandos:
     npm start
     # ou
     ng serve
+    
+Agora acesse o endereço:
+
+    https://localhost:4200
